@@ -16,12 +16,4 @@ if (validarPass($p)) {
     echo "Contraseña no válida";
 }
 
-
-
-
-
-
-
-
-
 ?>
