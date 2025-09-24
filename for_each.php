@@ -71,4 +71,17 @@ foreach ( $numeros as $numero ) {
 
 //Ejercicio 5: Dado el siguiente codigo, imprime la suma de las edades y el promedio de las edades.
 
+$edades = [10, 20, 21, 25];
+$suma = 0;
+$promedio = 0;
+
+foreach ( $edades as $edad ) {
+    $suma += $edad;
+}
+
+$promedio = $suma / count( $edades );
+
+echo "La suma de las edades es: " . $suma . "<br>";
+echo "El promedio de las edades es: " . $promedio;
+
 ?>
