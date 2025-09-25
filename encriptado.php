@@ -53,8 +53,8 @@ function descodificar($contraseña) {
 }
 
 $contraseña = "contraseña";
-$codificada = codificar($contraseña);
-$descodificada = descodificar($codificada);
+codificar($contraseña);
+descodificar($codificada);
 
 echo "Contraseña codificada: " . $codificada . "\n";
 echo "Contraseña decodificada: " . $descodificada . "\n";
